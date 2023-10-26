@@ -2,15 +2,22 @@
 
 // 1) Напишите программу, где пользователь вводит любое целое положительное число. А программа суммирует все числа от 1 до введенного пользователем числа.
 
-let sum = +prompt("Введите положительное число ");
-let group = 0;
-if (sum >= 0) {
-  for (let i = 1; i <= sum; i++) {
-    group = group + i;
-  }
-  console.log(group);
-} else if (sum < 0) {
-  console.log("Введите положительное число");
-} else {
-  console.log("Введите число");
+// let sum = +prompt("Введите положительное число ");
+// let group = 0;
+// if (sum >= 0) {
+//   for (let i = 1; i <= sum; i++) {
+//     group = group + i;
+//   }
+//   console.log(group);
+// } else if (sum < 0) {
+//   console.log("Введите положительное число");
+// } else {
+//   console.log("Введите число");
+// }
+// *
+// Напишите цикл, который за 7 вызовов console.log выводит такой треугольник
+let a = "#";
+while (a.length <= 7) {
+  console.log(a + "\n");
+  a += "#";
 }
